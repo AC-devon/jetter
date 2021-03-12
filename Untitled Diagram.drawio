@@ -1,9 +1,87 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T13:45:15.187Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="5tYNwkCfyF3iPND3R77R" version="14.4.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-12T13:53:54.953Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="d2_c1hZE8og64II2gxKM" version="14.4.7" type="github" pages="2">
   <diagram id="KKi0OEPkYbLF8Q9g1gjT" name="visualized design">
     <mxGraphModel dx="1228" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="yuFbcwmWlAFWTwB_GE9d-0" />
         <mxCell id="yuFbcwmWlAFWTwB_GE9d-1" parent="yuFbcwmWlAFWTwB_GE9d-0" />
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-0" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
+          <mxGeometry x="365.5" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-1" value="frontend app" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
+          <mxGeometry x="346" y="140" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-109" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yuFbcwmWlAFWTwB_GE9d-1" source="m6g7aJRytg6cZ8VWCV-y-2" target="m6g7aJRytg6cZ8VWCV-y-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-2" value="backend &lt;br&gt;solana program" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
+          <mxGeometry x="346" y="520" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-3" value="connect a wallet" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
+          <mxGeometry x="346" y="260" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-4" value="send sol" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
+          <mxGeometry x="376.5" y="400" width="113.5" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-5" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" edge="1" parent="yuFbcwmWlAFWTwB_GE9d-1" source="m6g7aJRytg6cZ8VWCV-y-0" target="m6g7aJRytg6cZ8VWCV-y-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-6" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" edge="1" parent="yuFbcwmWlAFWTwB_GE9d-1" source="m6g7aJRytg6cZ8VWCV-y-1" target="m6g7aJRytg6cZ8VWCV-y-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-7" style="entryX=0.5;entryY=0;entryPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" edge="1" parent="yuFbcwmWlAFWTwB_GE9d-1" source="m6g7aJRytg6cZ8VWCV-y-3" target="m6g7aJRytg6cZ8VWCV-y-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-10" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;fontColor=#001933;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" edge="1" parent="yuFbcwmWlAFWTwB_GE9d-1" source="m6g7aJRytg6cZ8VWCV-y-4" target="m6g7aJRytg6cZ8VWCV-y-2">
+          <mxGeometry x="105.5" y="10" width="100" height="100" as="geometry">
+            <mxPoint x="105.5" y="110" as="sourcePoint" />
+            <mxPoint x="205.5" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yuFbcwmWlAFWTwB_GE9d-1" source="m6g7aJRytg6cZ8VWCV-y-108" target="m6g7aJRytg6cZ8VWCV-y-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-121" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yuFbcwmWlAFWTwB_GE9d-1" source="m6g7aJRytg6cZ8VWCV-y-108">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.5" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-108" value="off-chain bot" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
+          <mxGeometry x="346" y="680" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-113" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yuFbcwmWlAFWTwB_GE9d-1" source="m6g7aJRytg6cZ8VWCV-y-110" target="m6g7aJRytg6cZ8VWCV-y-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-110" value="create stake account" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
+          <mxGeometry x="585" y="680" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.868;entryY=0.7;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="yuFbcwmWlAFWTwB_GE9d-1" source="m6g7aJRytg6cZ8VWCV-y-112" target="m6g7aJRytg6cZ8VWCV-y-108">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="880" />
+              <mxPoint x="500" y="736" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-112" value="delegate to validator" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
+          <mxGeometry x="585" y="840" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-124" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="yuFbcwmWlAFWTwB_GE9d-1" target="m6g7aJRytg6cZ8VWCV-y-123">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425.5" y="1040" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-122" value="wait 1 epcoh" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
+          <mxGeometry x="345" y="870" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-123" value="charge deposit &lt;br&gt;wallet with stSOL" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
+          <mxGeometry x="346" y="1120" width="159" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-125" value="DEPOSIT POOL FLOW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
+          <mxGeometry x="365" y="10" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-126" value="deposit to pool" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
+          <mxGeometry x="368.75" y="960" width="113.5" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
