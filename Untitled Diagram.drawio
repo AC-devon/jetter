@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-03-12T13:53:54.953Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="d2_c1hZE8og64II2gxKM" version="14.4.7" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-13T16:47:37.680Z" agent="5.0 (Macintosh; Intel Mac OS X 11_2_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36" etag="TMGnOzog2g57r7aPLiFo" version="14.4.7" type="github" pages="2">
   <diagram id="KKi0OEPkYbLF8Q9g1gjT" name="visualized design">
-    <mxGraphModel dx="1228" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1419" dy="1219" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="yuFbcwmWlAFWTwB_GE9d-0" />
         <mxCell id="yuFbcwmWlAFWTwB_GE9d-1" parent="yuFbcwmWlAFWTwB_GE9d-0" />
@@ -76,7 +76,7 @@
         <mxCell id="m6g7aJRytg6cZ8VWCV-y-123" value="charge deposit &lt;br&gt;wallet with stSOL" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
           <mxGeometry x="346" y="1120" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="m6g7aJRytg6cZ8VWCV-y-125" value="DEPOSIT POOL FLOW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
+        <mxCell id="m6g7aJRytg6cZ8VWCV-y-125" value="DEPOSIT POOL FLOW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
           <mxGeometry x="365" y="10" width="140" height="20" as="geometry" />
         </mxCell>
         <mxCell id="m6g7aJRytg6cZ8VWCV-y-126" value="deposit to pool" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" vertex="1" parent="yuFbcwmWlAFWTwB_GE9d-1">
@@ -86,7 +86,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="UxzMSkHPXDNqIrRCw2bD" name="Flowchart">
-    <mxGraphModel dx="1228" dy="1080" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1659" dy="1395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -115,6 +115,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="Qbo1H9NYPrMNoQKlqwee-108" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Qbo1H9NYPrMNoQKlqwee-3" target="Qbo1H9NYPrMNoQKlqwee-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jty4oMUwYQQqGCcBWTC6-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qbo1H9NYPrMNoQKlqwee-3" target="Jty4oMUwYQQqGCcBWTC6-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qbo1H9NYPrMNoQKlqwee-3" value="&lt;span&gt;off-chain bot&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -222,9 +225,6 @@
             <mxPoint x="715" y="560" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Qbo1H9NYPrMNoQKlqwee-54" value="STEP 1&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="15" y="20" width="60" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="Qbo1H9NYPrMNoQKlqwee-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Qbo1H9NYPrMNoQKlqwee-60" target="Qbo1H9NYPrMNoQKlqwee-63">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -265,9 +265,6 @@
         <mxCell id="Qbo1H9NYPrMNoQKlqwee-73" value="solana blockchain" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="35" y="275" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="Qbo1H9NYPrMNoQKlqwee-86" value="STEP 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="60" y="590" width="60" height="20" as="geometry" />
-        </mxCell>
         <mxCell id="Qbo1H9NYPrMNoQKlqwee-87" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="65" y="1290" as="sourcePoint" />
@@ -305,6 +302,18 @@
         </mxCell>
         <mxCell id="Qbo1H9NYPrMNoQKlqwee-109" value="2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="1200" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Jty4oMUwYQQqGCcBWTC6-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Jty4oMUwYQQqGCcBWTC6-1" target="Jty4oMUwYQQqGCcBWTC6-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Jty4oMUwYQQqGCcBWTC6-1" value="deposit to&lt;br&gt;pool" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="1220" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Jty4oMUwYQQqGCcBWTC6-3" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1180" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Jty4oMUwYQQqGCcBWTC6-5" value="solana program" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1230" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
